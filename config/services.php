@@ -40,4 +40,10 @@ return [
         'key'   => env('BAIDU_TRANSLATE_KEY'),
     ],
 
+    'weixin' => [
+        'client_id' => env('wxca130b6d130ad26f'),
+        'client_secret' => env('a592a32b1d86edfdc69b8ec3f4e66c4d'),
+        'redirect' => env('larabbs.local'),
+    ],
+
 ];
